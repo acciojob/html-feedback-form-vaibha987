@@ -1,23 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
 </head>
+<body>
+    <h1>Feedback Form</h1>
 
 <body>
 	<!-- the entire body must be written by student -->
-	<form method="POST">
-	<label for="name">Name</label>
+	<form action="#" method="POST">
+	<label for="name">Name:</label>
 <input type="text" id="name" name="name" required="" minlength="3" maxlength="50"><br>
 <label for="portfolio">Portfolio</label>
 	<input type="url" id="portfolio" name="portfolio" required><br>
-	<label for="favColor">Favorite Color</label>
-	<input type="color" id="favColor" name="favColor"><br>
-	<label for="likeness">Likeness</label>
+	<label for="favColor">Favorite Color:</label>
+	<input type="color" id="favColor" name="favColor" required><br>
+	<label for="likeness">Likeness(1-100):</label>
 	<input type="range" min="1" max="100" id="likeness" name="likeness">
-	<input type="submit" id="submit" name="submit">
+	<button type="submit">Submit</button>
 	</form>
 </body>
 
